@@ -1,0 +1,16 @@
+# ignore files and folders with dash at end of name
+*-
+*-.[^.]*
+
+# ignore macOS window information
+.DS_Store
+
+# latex
+*.aux
+*.bbl
+*.blg
+*.log
+*.synctex.gz
+
+# ignore hidden R files
+.R*
